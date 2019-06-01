@@ -1,5 +1,5 @@
 # Parallel-File-Copy-Async-I-O-
-##Parallel-File-Copy-Async-I-O-(Threads)
+## Parallel-File-Copy-Async-I-O-(Threads)
 
  The goal of the Parallel-File-Copy-Async-I-O is to copy a text file to a defined destination path using Asynchronous I/O operations like download manager .You will can copy the content of source file (source.txt) to a new destination file (destination.txt) by using threads.
  
@@ -19,7 +19,7 @@
  - … 
  - 8th thread should copy from source.txt to destination.txt last 2 bytes > hh 
  
- COMPILE CODE 
+ ## COMPILE CODE 
  
  - gcc -lrt -c your_code_file.c 
  - gcc your_code_file.o -lrt -o your_code_file.out 
