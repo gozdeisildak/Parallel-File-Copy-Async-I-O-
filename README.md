@@ -21,5 +21,6 @@
  
  ## COMPILE CODE 
  
- - gcc -lrt -c your_code_file.c 
- - gcc your_code_file.o -lrt -o your_code_file.out 
+ - gcc -lrt -c your_code_file.c -lpthread 
+ - gcc your_code_file.o -lrt -o your_code_file.out -lpthread 
+ - ./your_code_file.out
